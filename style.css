@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+}
+
+.row img {
+    float: left;
+}
+
+.row h1 {
+    position: relative;
+    font-size: 20px;
+    font-weight: lighter;
+    top: 18px;
+    left: 20px;
+ }
+
+.row h2 {
+    float: left;
+    top: 3px;
+}
+
+.row h3 {
+    float: left;
+}
+
+.row button {
+    position: relative;
+    font-size: 8px;
+    font-weight: lighter;
+    top: 23px;
+    left: 50px;
+    width: 50px;
+    height: 20px;
+    border: 2px solid #E9AF37;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px 0;
+    letter-spacing: .1em;
+    background: #E9AF37;
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    margin-bottom: 10px;
+}
+
+.rule {
+    width: 40%;
+    float: left;
+    border: 2px solid #E9AF37;
+    color: #E9AF37;
+}
+
+.orange {
+    color: #E9AF37;
+    font-size: smaller;
+    text-align: right;
+    padding-top: 23px;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 47% 53%;
+    grid-template-rows: 900px;
+}
+
+.inner-grid-container {
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+}
+
+.grid-item {
+    padding-left: 15%;
+    padding-top: 8%;
+    padding-right: 15%
+}
+
+.left {
+    background-image: url("images/Left_image.png");
+    color: white;
+    font-family: 'Artifika';
+}
+
+.btn {
+    border: 2px solid #E9AF37;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 16px;
+    height: 50px;
+    letter-spacing: .1em;
+    background: #E9AF37;
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: white;
+    color: #E9AF37;
+    cursor: pointer;
+    border: 2px solid #E9AF37;
+    outline: none;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 16px;
+    height: 50px;
+    letter-spacing: .1em;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none
+}
+
+.button-block {
+    margin-top: 25px;
+    display: block;
+    width: 30%
+}
+
+input,textarea {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: none 0 0;
+    border: 1px solid #D3D3D3;
+    color: white;
+    border-radius: 10px;
+    -webkit-transition: border-color .25s ease,box-shadow .25s ease;
+    transition: border-color .25s ease,box-shadow .25s ease;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input:focus,textarea:focus {
+    outline: 0;
+    border-color: #E9AF37;
+}
+
+::placeholder {
+    color: white;
+}
+
+label {
+    font-size: 10px;
+    margin: 6px 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.remita {
+    padding-top: 20px;
+}
+
+.line h3 {
+    position: relative;
+    font-size: 20px;
+    font-weight: lighter;
+    top: 18px;
+    left: 20px;
+}
+
+.line h2 {
+    float: left;
+}
+
+.line h1 {
+    float: left;
+    color: black;
+}
+
+.line p {
+    text-align: right;
+    font-size: smaller;
+    margin-bottom: 25px;
+}
+
+.line button {
+    position: relative;
+    font-size: 14px;
+    font-weight: 900;
+    top: 28px;
+    left: 20px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #1b9c50;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: .1em;
+    background: #1b9c50;
+    color: white;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    display: block;
+}
+
+.line input,textarea {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: none 0 0;
+    border: 1px solid #D3D3D3;
+    color: black;
+    border-radius: 10px;
+    -webkit-transition: border-color .25s ease,box-shadow .25s ease;
+    transition: border-color .25s ease,box-shadow .25s ease;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    resize: vertical;
+}
+
+.line ::placeholder {
+    color: #7B7B7B;
+}
+
+.line label {
+    margin: 6px 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.line span {
+    padding-left: 90%;
+    padding-top: 20px;
+    font-size: 16px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    opacity:0.5;
+}
+
+.right {
+    color: #7B7B7B;
+    font-family: 'Artifika';
+}
+
+.collapse {
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Artifika';
+    height: 40px;
+    color: #7B7B7B;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    background: rgba(0,0,0, 0);
+    text-align: left;
+}
+
+.collapse span {
+    font-size: 16px;
+    position: relative;
+    float: right;
+}
+
+.select {
+    border: 1px solid #1b9c50;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Artifika';
+    height: 110px;
+    color: black;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 170px;
+    background: rgba(0,0,0, 0);
+    text-align: left;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.select label {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: #1b9c50;
+    text-align: right;
+}
+
+.select span {
+    font-size: 12px;
+    pointer-events: none;
+    position:relative;
+    transition: 0.2s;
+    opacity:0.5;
+}
+
+.unselect {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Artifika';
+    height: 110px;
+    color: black;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 170px;
+    background: rgba(0,0,0, 0);
+    text-align: left;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.unselect label {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+.unselect span {
+    font-size: 12px;
+    pointer-events: none;
+    position:relative;
+    transition: 0.2s;
+    opacity:0.5;
+}
+
+.content {
+    padding-top: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.grey {
+    width: 100%;
+    float: left;
+    border: none;
+    height: 1px;
+    background-color: #C1C1C1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.copyright {
+    font-weight: normal;
+    float: right;
+    cursor: auto;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #7B7B7B;
+    border-radius: 10px!important;
+    background-color: white;
+    z-index: 50;
+    top: 100%;
+    left: 0;
+    right: 0;
+    outline: none;
+    -webkit-transition: border-color .25s ease,box-shadow .25s ease;
+    transition: border-color .25s ease,box-shadow .25s ease;
+    display: block;
+}
+
+.autocomplete-items div {
+    padding-left: 25px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 1px solid #7B7B7B;
+    height: 40px;
+    -webkit-transition: border-color .25s ease,box-shadow .25s ease;
+    transition: border-color .25s ease,box-shadow .25s ease;
+    display: block;
+    resize: vertical;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+.search_result h1 {
+    float: left;
+    font-size: 10px;
+}
+
+.search_result p {
+    padding-top: 5px;
+    font-size: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.search_result .head {
+    font-weight: bolder;
+    color: black;
+}

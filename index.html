@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Proxima Nova' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>DTAN</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item left">
+            <div class="row">
+                <img src="images/Logo.png" alt="Logo">
+                <h1>Developer Training<br>Association of Nigeria</h1>
+                <h1></h1>
+            </div>
+            <br><br><hr>
+            <div class="row">
+                <h2 id="portal_abb">MGPS</h2>
+                <button class="button">Selected</button>
+                <br><br>
+            </div>
+            <div class="row">
+                <p id="portal">Mesmerize Grazing and Permit<br>System</p>
+            </div>
+            <br><hr class="rule"><br><br>
+            <div class="row">
+                <h3>Login</h3>
+                <p class="orange">Already have an account <span class="fa fa-arrow-right"></span></p>
+            </div>
+            <form>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input required placeholder="username@company.com" name="email" id="email" autocomplete>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input required pattern=".{8,}" name="password" type="password" placeholder='password' id="password" autocomplete="off">
+                </div>
+                <div>
+                    <button type="button" class="btn button-block" id="loginButton">Login</button>
+                </div>
+            </form><br><br><br>
+            <img class="remita" src="images/remitta.png" alt="remitta">
+        </div>
+        <div class="inner-grid-container">
+            <div class="grid-item right">
+                <div class="line">
+                    <h1>Portals</h1>
+                    <button>7</button>
+                    <p>One Account to Rule them all</p>
+                    <hr class="grey">
+                </div>
+                <div class="line">
+                    <label for="search">
+                        <input id="search" placeholder="Search Portal...">
+                        <span class="fa fa-search"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="grid-item right">
+                <div>
+                    <button onclick="collapse('arrow1');" class="collapse">Most Used<span id="arrow1" class="angle fa fa-angle-down"></span></button>
+                    <div class="content">
+                        <button class="select" id="TPLS">
+                            <label>
+                                <i class="fa fa-check-circle"></i>
+                            </label>
+                            TPLS<br>
+                            <span>Mesmerize Grazing<br>and Permit System</span>
+                        </button>
+                        <button class="unselect" id="OTISP">
+                            <label>
+                                <i class="fa fa-check-circle"></i>
+                            </label>
+                            OTISP<br>
+                            <span>Agriculture Industry<br>Service Portal</span>
+                        </button>
+                    </div>
+                </div><hr class="grey">
+                <div>
+                    <button onclick="collapse('arrow3');" class="collapse">General<span id="arrow3" class="angle fa fa-angle-down"></span></button>
+                    <div class="content">
+                        <p>Some Content</p>
+                    </div>
+                </div><hr class="grey">
+                <div>
+                    <button onclick="collapse('arrow4');" class="collapse">Mainstream<span id="arrow4" class="angle fa fa-angle-down"></span></button>
+                    <div class="content">
+                        <p>Some Content</p>
+                    </div>
+                </div><hr class="grey">
+                <div>
+                    <button onclick="collapse('arrow5');" class="collapse">Restream<span id="arrow5" class="angle fa fa-angle-down"></span></button>
+                    <div class="content">
+                        <p>Some Content</p>
+                    </div>
+                </div><hr class="grey">
+                <div>
+                    <button onclick="collapse('arrow2');" class="collapse">Liquid<span id="arrow2" class="angle fa fa-angle-down"></span></button>
+                    <div class="content">
+                        <p>Some Content</p>
+                    </div>
+                </div><hr class="grey">
+                <div>
+                    <button onclick="collapse('arrow6');" class="collapse">Others<span id="arrow6" class="angle fa fa-angle-down"></span></button>
+                    <div class="content">
+                        <p>Some Content</p>
+                    </div>
+                </div><hr class="grey">
+            </div>
+            <div class="grid-item right">
+                <div>
+                    <ul>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                        <li class="copyright">Copyright 2020 | DTA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "post-app",
+  "version": "1.0.0",
+  "description": "Like facebook",
+  "scripts": {
+    "start": "serve",
+  },
+  "dependencies": {
+    "serve": "10.0.1"
+  },
+  "author": "Problem"
+}
+//view rawpackage.json hosted with ❤ by GitHub

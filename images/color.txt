@@ -1,0 +1,3 @@
+#1B9C50 - green
+#E9AF37 - orange
+#7B7B7B - grey
